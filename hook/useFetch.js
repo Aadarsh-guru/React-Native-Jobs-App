@@ -1,6 +1,5 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
-// const rapidApiKey = 'ec0dde0aecmshfd731ae9468fb66p1c168bjsn95d80bfe5cea';
 const rapidApiKey = process.env.EXPO_PUBLIC_RAPID_API_KEY
 
 const useFetch = (endpoint, query) => {
