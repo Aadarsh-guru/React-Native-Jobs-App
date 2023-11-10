@@ -8,6 +8,9 @@
             "distribution": "internal"
         },
         "preview": {
+            "env": {
+                "EXPO_PUBLIC_RAPID_API_KEY": "ec0dde0aecmshfd731ae9468fb66p1c168bjsn95d80bfe5cea"
+            },
             "ios": {
                 "simulator": true
             },
